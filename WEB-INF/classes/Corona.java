@@ -17,7 +17,7 @@ public class Corona extends HttpServlet{
                 "<body style='text-align:center;color:red; background-color:gray;margin-top-200px'>");
         br.append(c.toUpperCase()+"<br>");
 
-        String url = "	";
+        String url = "https://www.worldometers.info/coronavirus/country/" + c + "/";
         Document doc = Jsoup.connect(url).get();
         //#maincounter-wrap
         Elements elements = doc.select("#maincounter-wrap");
