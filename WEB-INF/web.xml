@@ -1,0 +1,11 @@
+<web-app>
+  <servlet>
+ <servlet-name>corona</servlet-name>
+<servlet-class>Corona</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>corona</servlet-name>
+<url-pattern>/corona</url-pattern>
+</servlet-mapping>
+</web-app>

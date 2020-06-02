@@ -1,0 +1,21 @@
+*{
+	margin:0px;
+	padding: 0px;
+	/*background-color: gray;*/
+}
+
+#title{
+	/*height:px;*/
+	width: 100%;
+	text-align: center;
+	padding: 40px;
+	/*color: green;*/
+	font-size: 50px;	
+}
+
+#form{
+	height: 200px;
+	text-align: center;
+	/*background-color: ;*/
+	color: green;
+}
